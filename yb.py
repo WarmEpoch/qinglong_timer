@@ -97,7 +97,8 @@ if __name__ == '__main__':
     loginList = [
         {'login': '15019744482','pwd': '10086hst'},
         {'login': '18023744377','pwd': 'A2901377401'},
-        {'login': '16620192839','pwd': 'Chen2003'}
+        {'login': '16620192839','pwd': 'Chen2003'},
+        {'login': '18983502100','pwd': 'zxczxc99'}
     ]
     for i in loginList:
         token = chrome_login(i['login'],i['pwd'])['yiban_user_token']
